@@ -1,0 +1,13 @@
+C:\Users\LENOVO\source\repos\KampIntro\DictionaryHomework\bin\Debug\netcoreapp3.1\DictionaryHomework.exe
+C:\Users\LENOVO\source\repos\KampIntro\DictionaryHomework\bin\Debug\netcoreapp3.1\DictionaryHomework.deps.json
+C:\Users\LENOVO\source\repos\KampIntro\DictionaryHomework\bin\Debug\netcoreapp3.1\DictionaryHomework.runtimeconfig.json
+C:\Users\LENOVO\source\repos\KampIntro\DictionaryHomework\bin\Debug\netcoreapp3.1\DictionaryHomework.runtimeconfig.dev.json
+C:\Users\LENOVO\source\repos\KampIntro\DictionaryHomework\bin\Debug\netcoreapp3.1\DictionaryHomework.dll
+C:\Users\LENOVO\source\repos\KampIntro\DictionaryHomework\bin\Debug\netcoreapp3.1\DictionaryHomework.pdb
+C:\Users\LENOVO\source\repos\KampIntro\DictionaryHomework\obj\Debug\netcoreapp3.1\DictionaryHomework.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\KampIntro\DictionaryHomework\obj\Debug\netcoreapp3.1\DictionaryHomework.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\KampIntro\DictionaryHomework\obj\Debug\netcoreapp3.1\DictionaryHomework.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\KampIntro\DictionaryHomework\obj\Debug\netcoreapp3.1\DictionaryHomework.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\KampIntro\DictionaryHomework\obj\Debug\netcoreapp3.1\DictionaryHomework.dll
+C:\Users\LENOVO\source\repos\KampIntro\DictionaryHomework\obj\Debug\netcoreapp3.1\DictionaryHomework.pdb
+C:\Users\LENOVO\source\repos\KampIntro\DictionaryHomework\obj\Debug\netcoreapp3.1\DictionaryHomework.genruntimeconfig.cache

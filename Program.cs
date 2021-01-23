@@ -6,48 +6,74 @@ namespace DictionaryHomework
     {
         static void Main(string[] args)
         {
-            MyDictionary<int, string> AdYas = new MyDictionary<int, string>();
-            AdYas.Add(15, "Arda");
-            AdYas.Add(20, "Beyza");
+            MyDictionary<int, string> YasAd= new MyDictionary<int, string>();
+            YasAd.Add(15, "Arda");
+            YasAd.Add(20, "Beyza");
 
-           
+            
+            
+
         }
+
 
     }
     class MyDictionary <T,U>
     {
-        T[] yas;
-        U[] ad;
+        T[] yaslar;
+        U[] adlar;
        
         public MyDictionary()
         {
-            yas = new T[0];
-            ad = new U[0];
+            yaslar = new T[0];
+            adlar = new U[0];
         }
 
-        public void Add(T key, U value)
+        public void Add(T yas, U ad)
         {
        
            
-            T[] tempKeys = yas;
-            U[] tempValues = ad;
+            T[] tempArray = yaslar;
+            yaslar = new T[yaslar.Length + 1];
 
-            yas = new T[yas.Length + 1];
-            ad = new U[ad.Length + 1];
+            U[] tempArray2 = adlar;
+
+            adlar = new U[adlar.Length + 1];
 
 
-            for (int i = 0; i < tempKeys.Length; i++)
+            for (int i = 0; i < tempArray.Length; i++)
             {
-                yas[i] = tempKeys[i];
-                ad[i] = tempValues[i];
+                yaslar[i] = tempArray[i];
+               
+            }
+            for (int i = 0; i < tempArray2.Length; i++)
+            {
+                adlar[i] = tempArray2[i];
             }
 
-            yas[yas.Length - 1] = key;
-            ad[ad.Length - 1] = value;
+            yaslar[yaslar.Length - 1] = yas;
+            adlar[adlar.Length - 1] = ad;
 
-            Console.ReadLine();
+            
 
         }
+        public int Length
+        {    
+            get { return yaslar.Length; }
+        }
+        public int Length1
+        {
+            get { return adlar.Length; }
+        }
+     
+        public T[] Yaslar
+        {
+            get { return yaslar; }  
+        }
+        public U[] Adlar
+        {
+            get { return adlar; }
+        }
+         
 
     }
 
